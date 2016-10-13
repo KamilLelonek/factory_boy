@@ -1,0 +1,25 @@
+# Disable comments requirement
+# implicitly add :no_doc: to every module or a class
+Style/Documentation:
+  Enabled: false
+
+# Allow `private`, `module_function` etc.
+# to be immediately follwed by code
+Style/EmptyLinesAroundAccessModifier:
+  Enabled: false
+
+# Allow to use long lines
+Metrics/LineLength:
+  Enabled: false
+
+# Require indentation of `when` in `case` statement
+# case something
+#   when condition then result
+# end
+Style/CaseIndentation:
+  IndentOneStep: true
+
+# Use double quotes everywhere
+# even regardless of interpolation
+Style/StringLiterals:
+  EnforcedStyle: double_quotes

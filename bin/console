@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "factory_boy"
+
+require "irb"
+IRB.start
