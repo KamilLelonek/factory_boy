@@ -73,7 +73,6 @@ FactoryBoy.define_factory(:user) do
 end
 
 FactoryBoy.build(:user) # => #<User:0x007fb98492834 @name="foobar">
-and
 ```
 
 You can also define a custom class for your factory:
